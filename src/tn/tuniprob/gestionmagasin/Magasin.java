@@ -1,12 +1,10 @@
 package tn.tuniprob.gestionmagasin;
 
-import java.util.Arrays;
-
 public class Magasin {
     private int identifiant;
     private String adresse;
     private int capacite;
-    private int test=0;
+    private int test = 0;
     private Produit[] produits;
     Employee[] employees;
 
@@ -40,6 +38,9 @@ public class Magasin {
             System.out.print("tableau  .. ");
         }
     }
+
+//    public void CalculStock() {
+//    }
 
     //supprimer un produit du Magasin
     public void supprimer(Produit p) {
